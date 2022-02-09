@@ -7,54 +7,41 @@ export class OrderDetailsService {
 
   constructor() { }
 
-  // fooddetails 
-  
+  // fooddetails
+
   foodDetails = [
     {
       id:1,
-      foodName:"Paneer Grilled Sandwich",
-      foodDetails:"Pan-fried masala paneer.",
+      foodName:"Multiplicación de los panes",
+      foodDetails:"Uno de los milagros más conocidos.",
       foodPrice:200,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wzfq7djolqxgdhghebbq"
+      foodImg:"03_FB_JVH_Miracles_1024"
     },
     {
       id:2,
-      foodName:"Veggie Supreme",
-      foodDetails:"Onion| Green Capsicum|Mushroom |black olives , sweet corn , Red Paprika topped with Cheese",
+      foodName:"Yo te digo: Levántate",
+      foodDetails:"Estudio sobre el milagro",
       foodPrice:369,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/sgbobtbxlojbtdnr2m5k"
+      foodImg:"02_FB_JVH_Miracles_1024"
     },
     {
       id:3,
-      foodName:"Paneer Burger",
-      foodDetails:"panner",
+      foodName:"¿Quién es este?",
+      foodDetails:"¿Realmente ocurrió?",
       foodPrice:149,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/xbeqlsck3p0kei53to7k"
+      foodImg:"01_FB_JVH_Miracles_1024"
     },
     {
       id:4,
-      foodName:"Veg Masala Roll In Naan",
-      foodDetails:"A homely mix of mashed potato and veggies, seasoned with Indian spices. A filling sure to take you back to mom's kitchen.",
+      foodName:"Recopilación ",
+      foodDetails:"Recolección de los estudios sobre los milagros.",
       foodPrice:140,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/l2ng6gtge30sqaafqng7"
+      foodImg:"00_FB_JVH_Miracles_1024"
     },
-    {
-      id:5,
-      foodName:"Indulgence Brownie",
-      foodDetails:"(Eggless) Indulge in richly decadent chocolate brownie crafted with love & topped with bitter-sweet chocolate that provides ultra-rich chocolate experience.",
-      foodPrice:105,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/iqlmbg1hlyc0dspdyzzv"
-    },
-    {
-      id:6,
-      foodName:"Oreo Cheesecake Ice Cream",
-      foodDetails:"Oreo ice cream",
-      foodPrice:219,
-      foodImg:"https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
-    }
+
   ]
 
 
-  
+
 
 }
