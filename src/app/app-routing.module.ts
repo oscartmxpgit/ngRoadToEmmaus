@@ -5,12 +5,14 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { MenupageComponent } from './pages/menupage/menupage.component';
+import { QuizComponent } from './pages/quiz/quiz.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
   {path:'menu',component:MenuComponent},
   {path:'menu/:id',component:MenupageComponent},
   {path:'about',component:AboutComponent},
+  {path:'quiz',component:QuizComponent},
   {path:'contact',component:ContactComponent}
 ];
 

@@ -10,6 +10,10 @@ import { MenuComponent } from './pages/menu/menu.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { MenupageComponent } from './pages/menupage/menupage.component';
+import { QuizComponent } from './pages/quiz/quiz.component';
+import { CommonModule } from '@angular/common';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BackgroundDirective } from './background.directive';
 
 @NgModule({
   declarations: [
@@ -20,10 +24,14 @@ import { MenupageComponent } from './pages/menupage/menupage.component';
     MenuComponent,
     AboutComponent,
     ContactComponent,
-    MenupageComponent
+    MenupageComponent,
+    QuizComponent,
+    BackgroundDirective
   ],
   imports: [
     BrowserModule,
+    CommonModule,
+    BrowserAnimationsModule,
     AppRoutingModule
   ],
   providers: [],
