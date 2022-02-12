@@ -14,6 +14,9 @@ import { QuizComponent } from './pages/quiz/quiz.component';
 import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BackgroundDirective } from './background.directive';
+import { TimelineComponent } from './pages/timeline/timeline.component';
+import {TimelineModule} from 'primeng/timeline';
+import { CardModule } from 'primeng/card';
 
 @NgModule({
   declarations: [
@@ -26,13 +29,16 @@ import { BackgroundDirective } from './background.directive';
     ContactComponent,
     MenupageComponent,
     QuizComponent,
-    BackgroundDirective
+    BackgroundDirective,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,
     CommonModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TimelineModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
